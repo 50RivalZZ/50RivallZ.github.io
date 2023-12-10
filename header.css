@@ -1,0 +1,40 @@
+nav {
+  width: 100%;
+  background-color: lightblue;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+nav img {
+  width: 130px;
+  margin-left: 70px;
+}
+
+.contact {
+  display: flex;
+  justify-content: right;
+}
+
+.contact a {
+  font-weight: bold;
+  margin-right: 100px;
+  text-decoration: none;
+  color: black;
+}
+
+.contact a:hover {
+  color: darkblue;
+}
+
+@media (max-width: 500px) {
+  nav img {
+    margin-left: 30px;
+  }
+  .contact a {
+    margin-right: 40px;
+    font-size: 14px;
+  }
+}
